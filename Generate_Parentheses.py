@@ -1,8 +1,7 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        # T(C(N)=O(1)) 
         #new_approach
-        #min runtime (35 ms) S(C(N)=O(N)) as it reuqires non coniguous memory allocation wihout iterating level wise 
+        #min runtime (35 ms) # T(C(N)=O(4^n)) and S(C(N)=O(4^N)) as it reuqires non coniguous memory allocation  both left and right subtree's at max 2 branches (2 Branching Factor(b))and  depth(d)  level order traversal
         #using BST'dfs(depth First Search) Traversal approach
         def dfs(l,r,s):#dfs funct declare
             if len(s)==n*2:#appending the stack in output
