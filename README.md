@@ -1,2 +1,2 @@
 # Leetcode_Generate_parentheses
-Leetcode Generate_Parentheses
+Submission:https://leetcode.com/submissions/detail/1196883654/
